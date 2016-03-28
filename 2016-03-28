@@ -1,0 +1,13 @@
+## PyTypeObject
+
+## Py_ssize_t
+
+'''c
+typedef long Py_ssize_t;
+'''
+
+## PyObject
+
+### Object Size
+For a type with variable-length instances, the instances must have an ob_size field, and the instance size is tp_basicsize plus N times tp_itemsize, where N is the “length” of the object.
+The value of N is typically stored in the instance’s ob_size field.
