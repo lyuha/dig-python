@@ -1,0 +1,15 @@
+Python bytecode instructions
+opcode
+opname
+arg
+argval
+argrepr
+offset
+starts_line
+
+1. the line number == starts_line
+2. >> : a label to mark jump
+3. offset == the address of the instruction
+4. 
+
+find opcode
